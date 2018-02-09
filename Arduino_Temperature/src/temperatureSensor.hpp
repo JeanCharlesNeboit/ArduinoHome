@@ -3,9 +3,8 @@
 
 #include <DHT.h>
 #include <DHT_U.h>
-#include "sensor.h"
 
-class TemperatureSensor: public Sensor, public DHT {
+class TemperatureSensor: public DHT {
     private:
 
     public:
