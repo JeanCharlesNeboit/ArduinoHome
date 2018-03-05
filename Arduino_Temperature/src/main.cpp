@@ -8,7 +8,7 @@ TemperatureSensor temperatureSensor;
 
 RF24 radio(7, 8); //CE, CSN
 const uint64_t addressRead = 0xE8E8F0F0E1LL;
-const uint64_t addressWrite = 0xE8E8F0F0E2LL;
+const uint64_t addressWrite = 0xE8E8F0F0E4LL;
 char buffer[200] = "";
 
 void setup() {
