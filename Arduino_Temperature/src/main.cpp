@@ -42,5 +42,5 @@ void loop() {
     hi = temperatureSensor.measureHeatIndex(true);
     Serial.println("Indice de temperature: " + String(hi) + "°F");
 
-    delay(10000);
+    delay(600000);
 }
